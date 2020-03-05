@@ -24,7 +24,7 @@ unwrap = "~1.2.1"
 
 [dependencies.socket-collection]
 version = "~0.4.0"
-git = "https://github.com/ekutt/socket-collection"
+git = "https://github.com/nblockchain/socket-collection"
 
 [dev-dependencies]
 env_logger = "~0.5.13"
