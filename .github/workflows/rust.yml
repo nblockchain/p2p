@@ -8,8 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Rust Version
+    - name: Set Up Rust
       run: |
+        rustup install stable
+        rustup default stable
         rustc -Vv
         cargo -Vv
     - uses: actions/checkout@v2
