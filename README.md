@@ -2,7 +2,7 @@
 
 |Crate|Documentation|Linux/OSX/Windows|
 |:---:|:-----------:|:----------------:|
-| [![](http://meritbadge.herokuapp.com/p2p)](https://crates.io/crates/p2p) | [![Documentation](https://docs.rs/p2p/badge.svg)](https://docs.rs/p2p) | [![Rust](https://github.com/ekutt/p2p/workflows/Rust/badge.svg?branch=P2P-1_FIX_BUILD_AND_TESTS)](https://github.com/ekutt/p2p/workflows/Rust/badge.svg?branch=P2P-1_FIX_BUILD_AND_TESTS)
+| [![](http://meritbadge.herokuapp.com/p2p)](https://crates.io/crates/p2p) | [![Documentation](https://docs.rs/p2p/badge.svg)](https://docs.rs/p2p) | [![Rust](https://github.com/nblockchain/p2p/workflows/Rust/badge.svg?branch=P2P-1_FIX_BUILD_AND_TESTS)](https://github.com/nblockchain/p2p/workflows/Rust/badge.svg?branch=P2P-1_FIX_BUILD_AND_TESTS)
 
 
 The goal of this crate is to provide a robust and crypto-secure NAT traversal for peer to peer connection. It assumes publicly reachable rendezvous servers are provided. The server code itself is in the crate too, so the crate can either be used to deploy a server or used for peer to peer client communication or both simultaneously - for e.g. if you run the server on a port forwarded endpoint, it will be publicly available for others to rendezvous while you could choose normal NAT traversal mechanisms to communicate with other peers.
