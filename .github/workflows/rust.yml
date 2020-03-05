@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Print Rust Version
+      run: |
+        rustc -Vv
+        cargo -Vv
     - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose
